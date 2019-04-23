@@ -1,0 +1,13 @@
+Employee's first name is : Lanai
+Employee's last name is : Nevers
+Employee's job title is : Manager
+Hours worked : 12.0
+Employee's pay rate is : 10.0
+Employee's gross pay : 120.0
+Employee's salary after tax deduction : 110.4Employee's first name is : Diandra
+Employee's last name is : Whittick
+Employee's job title is : Manager
+Hours worked : 60.0
+Employee's pay rate is : 100.0
+Employee's gross pay : 6000.0
+Employee's salary after tax deduction : 4200.0

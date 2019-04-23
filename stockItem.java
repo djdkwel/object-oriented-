@@ -1,9 +1,7 @@
 
 import java.util.*;
 import java.io.*;
-
-
-
+import javax.swing.JOptionPane;
 
 public class stockItem implements Serializable{
     String productName;
@@ -139,8 +137,9 @@ public static void main(String[] args){
 	stocks.add(item3);
 	stocks.add(item4);
 	
-	System.out.println("Enter 1 to add stock item;enter 2 to change quantity; 3 View Stock Items; Enter 4 to exist");
-    String option = userInput.nextLine();
+	//System.out.println("Enter 1 to add stock item;enter 2 to change quantity; 3 View Stock Items; Enter 4 to exist");
+    //String option = userInput.nextLine();
+	String option = JOptionPane.showInputDiaglog("Enter 1 to add stock item;enter 2 to change quantity; 3 View Stock Items; Enter 4 to exist");
     int result = Integer.parseInt(option);
 
     switch(result) {
